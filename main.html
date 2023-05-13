@@ -23,12 +23,15 @@
      <input type="radio" value="Male" name="gender" required> Male
      <input type="radio" value="Female" name="gender" required> Female
     </div>
-	<div>
-     <label for="select#laptop">Laptop Brands:</label>
-      Apple: <input type="checkbox" value="Apple" name="select#laptop" id="select#laptop">
-      Asus: <input type="checkbox" value="Asus" name="select#laptop" id="select#laptop">
-      HP: <input type="checkbox" value="HP" name="select#laptop" id="select#laptop">
-    </div>
+		<div>
+     <label for="laptop">Laptop Brands:</label>
+       <select name="laptop" id="laptop">
+       <option value="laptop" disabled selected>Laptop Brands</option>
+       <option value="Apple">Apple</option>
+       <option value="Asus">Asus</option>
+       <option value="HP">HP</option>
+       </select>
+      </div>
     <div>
      <label for="age">Age:</label>
      <input type="number" name="age" id="age" placeholder="Enter Your Age" required>
