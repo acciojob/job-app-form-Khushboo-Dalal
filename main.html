@@ -3,11 +3,48 @@
 <html>
 
 <head>
+	<title>Form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action"#" method="POST" name="form" id="form">
+    <div>
+     <label for="name">Name:</label>
+     <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+    </div>
+    <div>
+     <label for="email">Email:</label>
+     <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+    </div>
+	<div>
+     <label for="gender">Gender:</label>
+     <input type="radio" value="Male" name="gender" required> Male
+     <input type="radio" value="Female" name="gender" required> Female
+    </div>
+	<div>
+     <label for="laptopbrands">Laptop Brands:</label>
+      Apple: <input type="checkbox" value="Apple">
+      Asus: <input type="checkbox" value="Asus">
+      HP: <input type="checkbox" value="HP">
+    </div>
+    <div>
+     <label for="age">Age:</label>
+     <input type="number" name="age" id="age" placeholder="Enter Your Age" required>
+    </div>
+    <div>
+     <label for="dob">DOB:</label>
+     <input type="date" name="dob" id="dob" placeholder="Enter Your DOB" required>
+    </div>
+	<div>
+     <label for="password">Password:</label>
+     <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+    </div>
+	<div>
+     <input type="submit">
+    </div>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
